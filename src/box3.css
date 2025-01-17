@@ -1,0 +1,109 @@
+.li{
+    margin: 80px 0px;
+    text-align: center;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+
+}
+.sub{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(175, 239, 239);
+}
+
+.sub img{
+    height: 200px;
+    width: 200px;
+    padding-left: 70px;
+    margin: 20px 0px;
+}
+
+.sub1{
+    height: 500px;
+    width: 350px;
+    background-color:rgb(175, 239, 239);
+
+    & p{
+        font-size: 13px;
+    }
+}
+
+
+
+.sub1 img{
+    height: 200px;
+    width: 200px;
+    padding-left: 70px;
+    margin: 20px 0px;
+}
+
+.sub2{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(175, 239, 239);
+
+}
+
+.sub2 img{
+    height: 200px;
+    width: 200px;
+    padding-left: 70px;
+    margin: 20px 0px;
+}
+
+.sub button{
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.sub1 button{
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.sub2 button{
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+
+button a{
+    text-decoration: none;
+}
+
+.sub button a{
+    text-decoration: none;
+}
+
+.sub1 button a{
+    text-decoration: none;
+}
+
+.sub2 button a{
+    text-decoration: none;
+}
+
+
+.sub:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 40px black;
+    
+}
+
+.sub1:hover{
+    transform:scale3d(1.2);
+    
+    box-shadow: 0px 0px 40px black;
+    
+}
+
+.sub2:hover{
+    transform: scale(1.1);
+    
+    box-shadow: 0px 0px 40px black;
+    
+}
